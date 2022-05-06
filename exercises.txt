@@ -1,0 +1,13 @@
+Exercises
+
+1. Play 5 notes at midi pitches 60, 62, 64, 65, 67, each note should play for 0.5 beats (specify the release portion AND the sleep time!)
+2. Play a note using the synth :tb303, at MIDI pitch 60, with attack time 1, decay time 0.2, sustain time 2, sustain level 0.7, and release time 0.5
+3. Play the sample :ambi_lunar_land repeatedly every 0.1 beats and pan it from -1 to 1 in steps of 0.2
+4. Play the sample :loop_amen forward and backward. Between the forward and backward play, sleep for sample_duration(:loop_amen). Repeat the process twice.
+5. Write a loop that creates an infinite kick drum beat (use the sample :drum_bass_soft and sleep for 0.5 beats between each sample trigger)
+6. Write a loop that triggers notes from 60 to 70 and sleeps for 0.5 beats between notes
+    - Use a piano sound (use_synth :piano)
+7. Change the last program to trigger random notes between 60 and 70 infinitely (use the function rrand_i)
+8. Add a conditional to trigger a drum sample of your choice for pitch 60
+9. Change the program 6 to trigger random notes from a C major scale
+10. Add a reverb effect to program 9
